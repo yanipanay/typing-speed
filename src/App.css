@@ -10,13 +10,17 @@ body{
 .header,.timer-header{
   display:flex;
   justify-content:space-between;
-  align-items: center;
+  align-items: baseline;
   width:70%;
   margin :0 auto;
 }
 
 .header{
   margin-top: 10vh;
+}
+
+.icon{
+  font-size: 30px;
 }
 
 .modes{
@@ -33,6 +37,7 @@ body{
   display: flex;
   gap:10px;
   align-items: baseline;
+  justify-content: baseline;
 }
 
 .title{
@@ -82,6 +87,7 @@ body{
   margin: 0 auto;
   display: flex;
   justify-content: space-between;
+  margin-top: 50px;
 }
 
 .footer select{
@@ -89,5 +95,19 @@ body{
   padding: 5px 10px;
   font-size: 18px;
   border-radius: 5px;
+  
+}
 
+
+.socials{
+  display: flex;
+  color: blue;
+  gap: 10px;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+
+.social:hover{
+  color: rgb(67, 255, 67);
 }

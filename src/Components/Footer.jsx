@@ -1,4 +1,7 @@
 import React, { useState } from "react";
+import { FaInstagramSquare } from "react-icons/fa";
+import { BsLinkedin, BsGithub, BsInstagram } from "react-icons/bs";
+import { FiMail } from "react-icons/fi";
 
 function Footer() {
   const [backgroundColor, setBackgroundColor] = useState("black");
@@ -15,7 +18,12 @@ function Footer() {
   };
   return (
     <div className="footer">
-      <div className="socials"></div>
+      <div className="socials">
+        <BsInstagram className="social" />
+        <BsLinkedin className="social" />
+        <FiMail className="social"></FiMail>
+        <BsGithub className="social" />
+      </div>
       <div className="select-theme">
         <select
           id="colorPicker"
